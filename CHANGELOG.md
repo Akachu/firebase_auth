@@ -1,3 +1,33 @@
+## 0.15.0+1
+
+*  Added missing ERROR_WRONG_PASSWORD Exception to the `reauthenticateWithCredential` docs.
+
+## 0.15.0
+
+* Fixed `NoSuchMethodError` in `reauthenticateWithCredential`.
+* Fixed `IdTokenResult` analyzer warnings.
+* Reduced visibility of `IdTokenResult` constructor.
+
+## 0.14.0+10
+
+* Formatted lists in member documentations for better readability.
+
+## 0.14.0+9
+
+* Fix the behavior of `getIdToken` to use the `refresh` parameter instead of always refreshing.
+
+## 0.14.0+8
+
+* Updated README instructions for contributing for consistency with other Flutterfire plugins.
+
+## 0.14.0+7
+
+* Remove AndroidX warning.
+
+## 0.14.0+6
+
+* Update example app with correct const constructors.
+
 ## 0.14.0+5
 
 * On iOS, `fetchSignInMethodsForEmail` now returns an empty list when the email
